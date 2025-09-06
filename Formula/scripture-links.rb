@@ -7,16 +7,16 @@ class ScriptureLinks < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/GarthDB/scripture-links/releases/download/v1.1.0/scripture-links-aarch64-apple-darwin.tar.gz"
-      sha256 "fdf75ee685ea59c172f3a27fe8c51c586624f9767eb15f9b1490e2499fa60470"
+      sha256 "0f21d0c42324256a63fb4772e51309fe4c48ff0f9aabdd812699762fcba6a398"
     else
       url "https://github.com/GarthDB/scripture-links/releases/download/v1.1.0/scripture-links-x86_64-apple-darwin.tar.gz"
-      sha256 "158536e855f58e5338acae681f5800ba8c1a95bc04e547a269aa8488231fde61"
+      sha256 "a22742bf1ebbafae0b2ab5a6e2e795e15107825247da011f7056787fac7742f1"
     end
   end
 
   on_linux do
     url "https://github.com/GarthDB/scripture-links/releases/download/v1.1.0/scripture-links-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "bd12df98397a04c9da07f40dc4202b7b27922a86872139462d89bf73a42baf80"
+    sha256 "9df0cfdbc72f65b2b3078856c23eece4085950d410cda8488297606b804c7b71"
   end
 
   def install
