@@ -1,22 +1,22 @@
 class ScriptureLinks < Formula
   desc "Convert scripture references to URLs for ChurchofJesusChrist.org"
   homepage "https://github.com/GarthDB/scripture-links"
-  version "1.2.0"
+  version "1.2.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/GarthDB/scripture-links/releases/download/v1.2.0/scripture-links-aarch64-apple-darwin.tar.gz"
-      sha256 "fa47dbaabccd38e91d49aa976032908b3e91de49544cbb6591715f73f43d3b5e"
+      url "https://github.com/GarthDB/scripture-links/releases/download/v1.2.1/scripture-links-aarch64-apple-darwin.tar.gz"
+      sha256 "2f2fb9024c986bdb8af298103c6f13097586ad7e18625e624463a538ec644a5a"
     else
-      url "https://github.com/GarthDB/scripture-links/releases/download/v1.2.0/scripture-links-x86_64-apple-darwin.tar.gz"
-      sha256 "9441da18fa411259fc4b43fe1a3f715f947d7edac98889e135b6c078fdbb050c"
+      url "https://github.com/GarthDB/scripture-links/releases/download/v1.2.1/scripture-links-x86_64-apple-darwin.tar.gz"
+      sha256 "8c87ee47ffb635372016b6260c2bf39bbf5e4bb0148229cd0b804b190f239166"
     end
   end
 
   on_linux do
-    url "https://github.com/GarthDB/scripture-links/releases/download/v1.2.0/scripture-links-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "6cd15b8d344c18719e4a142b2f50c1c436303c484710a0494884e1114deadac4"
+    url "https://github.com/GarthDB/scripture-links/releases/download/v1.2.1/scripture-links-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "1649ef7e6653404b65307b4ff43bde74d8e9e4f7c2ce50e6f1690f621da2ad98"
   end
 
   def install
